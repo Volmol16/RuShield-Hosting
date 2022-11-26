@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.card {
+    text-align: center;
+}
+
+.nametag {
+    color: #aa4b1a;
+}
+
+h6 {
+    font-size: 18px;
+    color: #2aa198;
+    text-align: center;
+}
+.tarif{
+    margin-top: 105px;
+    font-size: 40px;
+    color: rgb(47, 108, 161);
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+    
+.position {
+    position: relative;
+    right: -600px;
+}
+
+.rouned-img {
+    border-radius: 30%;
+    box-shadow: 0 0 10px rgb(126, 126, 126);
+    padding: 0.1em;
+    margin-bottom: 1em;
+}
+
+.bg-body {
+    color: aqua;
+}
+
+.navbar {
+    border-radius: 20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headerabout {
+    width: 700px;
+    border-right: 5px;
+    top: 90px;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerabout .about {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 150px;
+    letter-spacing: 1px;
+    color: rgb(91, 208, 255);
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+header a {
+    font-size: 72px;
+    letter-spacing: 1px;
+    color: rgb(91, 208, 255);
+    font-weight: 700;
+}
+
+header p {
+    font-size: 22px;
+    color: rgb(91, 208, 255);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+header .about button {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    border-radius: 30px;
+    padding: 15px 62px;
+    margin: 10px;
+    border: none;
+}
+
+header .about button a {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+header .about .btn2 {
+    background-color: white;
+}
+
+header .about .btn2 a {
+    color: #000;
+}
+
+/* section start */
+
+.Java{
+    margin-top: 105px;
+    font-size: 40px;
+    color: rgb(47, 108, 161);
+    font-weight: 700;
+    margin-bottom: 40px;
+    left: 150px;
+    position: relative;
+}
+
+.javap{
+    color: rgb(83, 83, 83);
+    font-size: 16px;
+    margin-bottom: 90px;
+    left: 150px;
+    position: relative;
+}
+
+.Javap1{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.Javap2{
+    margin-left: 5px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.Javapp{
+    display: flex;
+    justify-content: center;
+}
+
+.btn3 {
+    background-color: #ff6600;
+    border-color: #ff6600;
+    border-radius: 30px;
+    padding: 15px 62px;
+    margin-bottom: 100px;
+    border: none;
+}
+
+.btn3 a {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn3 {
+    background-color: blue;
+}
+
+.news{
+    font-size: 42px;
+    font-weight: 700;
+    color: black;
+}
+
+.news1{
+    font-size: 24px;
+    margin-bottom: 90px;
+}
+
+.Mine1{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 14px;
+}
+
+.Mine2{
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.Sitess{
+    color: rgb(47, 108, 161);
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.fa{
+    font-size: 50px;
+    color: rgb(47, 108, 161);
+}
+
+
+.Disco{
+    width: 50px;
+    color: white;
+}
+
+.Sites{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Downn{
+    background-color: aliceblue;
+}
+
+.downa{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.Sita{
+    color: black;
+}
+
+/* media start */
+/* col-xl */
+@media(min-width: 1200px) {}
+
+/* col-lg */
+@media(min-width: 992px) and (max-width:1199px) {}
+
+/* col-md */
+@media(min-width: 768px) and (max-width:991px) {}
+
+/* col-sm */
+@media(min-width: 576px) and (max-width:767px) {}
+
+/* col */
+@media(max-width: 575px) {
+    header h1 {
+        font-size: 45px;
+    }
+}
+
+/* media end */
