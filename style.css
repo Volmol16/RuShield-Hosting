@@ -23,7 +23,9 @@ h6 {
     
 .position {
     position: relative;
-    right: -600px;
+    right: -420px;
+    max-width: 720px;
+    text-align: center;
 }
 
 .rouned-img {
@@ -61,7 +63,9 @@ header {
 }
 
 .headerabout {
-    width: 700px;
+    box-sizing: border-box;
+    width: 900px;
+    max-width: 950px;
     border-right: 5px;
     top: 90px;
     height: 90vh;
@@ -126,6 +130,7 @@ header .about .btn2 a {
     font-size: 40px;
     color: rgb(47, 108, 161);
     font-weight: 700;
+    max-width: 720px;
     margin-bottom: 40px;
     left: 150px;
     position: relative;
