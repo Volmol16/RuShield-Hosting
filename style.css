@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+section {
+    background-color: #181a1b;
+    
+}
+
+.whitebg {
+    color: #ffffff;
+    
+}
+
+.sgraybg {
+    background-color: #181a1b;
+    
+}
+
+.graybg {
+    background-color: #1c1f20;
+    
+}
+
+.blackbg {
+    background-color: #181a1b;
+}
+
 .card {
     text-align: center;
 }
@@ -35,8 +59,8 @@ h6 {
     margin-bottom: 1em;
 }
 
-.bg-body {
-    color: aqua;
+.bodybg {
+    color: rgb(0, 46, 46);
 }
 
 .navbar {
@@ -57,7 +81,7 @@ body {
 header {
     width: 100%;
     height: 100vh;
-    background-color: aliceblue;
+    background-color: #1c1f20;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -137,7 +161,7 @@ header .about .btn2 a {
 }
 
 .javap{
-    color: rgb(83, 83, 83);
+    color: rgb(177, 177, 177);
     font-size: 16px;
     margin-bottom: 90px;
     left: 150px;
@@ -229,11 +253,11 @@ header .about .btn2 a {
 }
 
 .Downn{
-    background-color: aliceblue;
+    background-color: #1c1f20;
 }
 
 .downa{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
