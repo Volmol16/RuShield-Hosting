@@ -67,10 +67,9 @@ h6 {
 }
     
 .position {
-    position: relative;
-    right: -40%;
-    max-width: 720px;
-    text-align: center;
+    display: flex;
+    margin-top: -25%;
+    margin-left: 70%;
 }
 
 .rouned-img {
@@ -109,11 +108,10 @@ header {
 
 .headerabout {
     box-sizing: border-box;
-    width: 900%;
     max-width: 950px;
+    margin-left: -20%;
+    margin-top: 20%;
     border-right: 5%;
-    top: 90px;
-    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,7 +281,7 @@ header .about .btn2 a {
 @media(min-width: 1200px) {}
 
 /* col-lg */
-@media(min-width: 992px) and (max-width:1199px) {}
+@media(min-width: 800px) and (max-width:900px) {}
 
 /* col-md */
 @media(min-width: 768px) and (max-width:991px) {}
