@@ -47,7 +47,7 @@ h6 {
     
 .position {
     position: relative;
-    right: -420px;
+    right: -40%;
     max-width: 720px;
     text-align: center;
 }
@@ -88,9 +88,9 @@ header {
 
 .headerabout {
     box-sizing: border-box;
-    width: 900px;
+    width: 900%;
     max-width: 950px;
-    border-right: 5px;
+    border-right: 5%;
     top: 90px;
     height: 90vh;
     display: flex;
@@ -150,13 +150,13 @@ header .about .btn2 a {
 /* section start */
 
 .Java{
-    margin-top: 105px;
+    margin-top: 10%;
     font-size: 40px;
     color: rgb(47, 108, 161);
     font-weight: 700;
     max-width: 720px;
     margin-bottom: 40px;
-    left: 150px;
+    left: 11.5%;
     position: relative;
 }
 
@@ -164,7 +164,7 @@ header .about .btn2 a {
     color: rgb(177, 177, 177);
     font-size: 16px;
     margin-bottom: 90px;
-    left: 150px;
+    left: 11.5%;
     position: relative;
 }
 
