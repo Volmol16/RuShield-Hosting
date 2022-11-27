@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
 section {
     background-color: #181a1b;
     
@@ -28,8 +29,25 @@ section {
     text-align: center;
 }
 
-.nametag {
-    color: #aa4b1a;
+.nametagp {
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, red, fuchsia);
+}
+
+.nametags {
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, rgb(131, 247, 255), rgb(0, 140, 255));
+}
+
+.nametagn {
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, rgb(225, 255, 118), rgb(255, 251, 0));
 }
 
 h6 {
@@ -40,9 +58,12 @@ h6 {
 .tarif{
     margin-top: 105px;
     font-size: 40px;
-    color: rgb(47, 108, 161);
     font-weight: 700;
     margin-bottom: 40px;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, rgb(0, 68, 255), rgb(111, 145, 255));
 }
     
 .position {
@@ -105,9 +126,13 @@ header {
 header h1 {
     font-size: 150px;
     letter-spacing: 1px;
-    color: rgb(91, 208, 255);
     font-weight: 700;
     margin-bottom: 50px;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, #7a89cc, #70e5ef);
+    
 }
 header a {
     font-size: 72px;
@@ -152,12 +177,15 @@ header .about .btn2 a {
 .Java{
     margin-top: 10%;
     font-size: 40px;
-    color: rgb(47, 108, 161);
     font-weight: 700;
     max-width: 720px;
     margin-bottom: 40px;
     left: 11.5%;
     position: relative;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, rgb(0, 68, 255), rgb(111, 145, 255));
 }
 
 .javap{
@@ -166,24 +194,6 @@ header .about .btn2 a {
     margin-bottom: 90px;
     left: 11.5%;
     position: relative;
-}
-
-.Javap1{
-    font-size: 24px;
-    font-weight: 700;
-    color: black;
-    margin-bottom: 50px;
-}
-
-.Javap2{
-    margin-left: 5px;
-    color: black;
-    margin-bottom: 50px;
-}
-
-.Javapp{
-    display: flex;
-    justify-content: center;
 }
 
 .btn3 {
@@ -230,9 +240,12 @@ header .about .btn2 a {
 }
 
 .Sitess{
-    color: rgb(47, 108, 161);
     font-weight: 700;
     margin-bottom: 50px;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, rgb(0, 68, 255), rgb(111, 145, 255));
 }
 
 .fa{
