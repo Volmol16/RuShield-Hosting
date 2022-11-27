@@ -171,9 +171,8 @@ header .about .btn2 a {
 
 .Java{
     margin-top: 10%;
-    font-size: 40px;
+    font-size: 300%;
     font-weight: 700;
-    max-width: 720px;
     margin-bottom: 40px;
     left: 11.5%;
     position: relative;
@@ -185,53 +184,10 @@ header .about .btn2 a {
 
 .javap{
     color: rgb(177, 177, 177);
-    font-size: 16px;
+    font-size: 100%;
     margin-bottom: 90px;
     left: 11.5%;
     position: relative;
-}
-
-.btn3 {
-    background-color: #ff6600;
-    border-color: #ff6600;
-    border-radius: 30px;
-    padding: 15px 62px;
-    margin-bottom: 100px;
-    border: none;
-}
-
-.btn3 a {
-    font-size: 16px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #fff;
-}
-
-.btn3 {
-    background-color: blue;
-}
-
-.news{
-    font-size: 42px;
-    font-weight: 700;
-    color: black;
-}
-
-.news1{
-    font-size: 24px;
-    margin-bottom: 90px;
-}
-
-.Mine1{
-    font-size: 24px;
-    font-weight: 700;
-    color: black;
-    margin-bottom: 14px;
-}
-
-.Mine2{
-    margin-bottom: 50px;
-    font-size: 16px;
 }
 
 .Sitess{
