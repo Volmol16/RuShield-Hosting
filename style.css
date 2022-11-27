@@ -108,10 +108,7 @@ header {
 
 .headerabout {
     box-sizing: border-box;
-    max-width: 950px;
-    margin-left: -20%;
     margin-top: 20%;
-    border-right: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
