@@ -173,9 +173,7 @@ header .about .btn2 a {
     margin-top: 10%;
     font-size: 300%;
     font-weight: 700;
-    margin-bottom: 40px;
     left: 11.5%;
-    position: relative;
     color: transparent;    
 	-webkit-background-clip: text;
 	background-clip: text;
@@ -187,7 +185,6 @@ header .about .btn2 a {
     font-size: 100%;
     margin-bottom: 90px;
     left: 11.5%;
-    position: relative;
 }
 
 .Sitess{
