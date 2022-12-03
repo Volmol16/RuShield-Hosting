@@ -1,6 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
+/* Terminal */
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+  font-size:2em;
+  font-weight: 700;
+  text-align:center;
+  height:200px;
+  width:100%;
+  display:block;
+  position:absolute;
+  color:white;
+  top: 500px;;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+  color: transparent;    
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to right, #7a89cc, #70e5ef);
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
 section {
     background-color: #181a1b;
     
