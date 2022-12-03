@@ -1,5 +1,5 @@
 // function([string1, string2],target id,[color1,color2])    
-consoleText(['Protect your server', 'Get Protected', 'The confidence of the largest.'], 'text',['tomato','rebeccapurple','lightblue']);
+consoleText(['Protect your server', 'We are trusted by the largest servers', 'Ddos/bot attacks? Forget about them!', 'Low ping and 100% protection', 'Just what you need for your success!'], 'text',['tomato','rebeccapurple','lightblue']);
 
 function consoleText(words, id) {
   var visible = true;

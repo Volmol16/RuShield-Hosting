@@ -61,25 +61,40 @@ section {
     text-align: center;
 }
 
-.nametagp {
+
+.nametagfree {
     color: transparent;    
 	-webkit-background-clip: text;
 	background-clip: text;
-	background-image: linear-gradient(to right, red, fuchsia);
+	background-image: linear-gradient(to right, #00FF5B, #0014FF);
 }
 
-.nametags {
+.nametagstart {
     color: transparent;    
-	-webkit-background-clip: text;
-	background-clip: text;
-	background-image: linear-gradient(to right, rgb(131, 247, 255), rgb(0, 140, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to right, #00E5FF, #1200FF);
 }
 
-.nametagn {
+.nametagnormal {
     color: transparent;    
 	-webkit-background-clip: text;
 	background-clip: text;
-	background-image: linear-gradient(to right, rgb(225, 255, 118), rgb(255, 251, 0));
+	background-image: linear-gradient(to right, #FFE53B, #00FFFF);
+}
+
+.nametagpro {
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, #FF0A6C, #2D27FF);
+}
+
+.nametagenter {
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to right, #FFE53B, #FF2525);
 }
 
 h6 {
